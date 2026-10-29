@@ -36,9 +36,9 @@ hello-toeknfactory 想解决的，是这条链上最容易卡住人的一环：�
 | [第 12 章 SGLang 核心能力](./docs/ch12-SGLang核心能力.md) | RadixAttention 实战、压缩 FSM、MoE 部署、Router、RL rollout | ✅ |
 | [第 13 章 PD 分离与大规模部署](./docs/ch13-PD分离与大规模部署.md) | PD 分离架构、KV 传输、成本账、不该做的门槛 | ✅ |
 | [第 14 章 双引擎选型与决策](./docs/ch14-双引擎选型与决策.md) | vLLM vs SGLang、横向对比、国产化适配、选型决策树 | ✅ |
-| 第 15 章 GPUStack 全景：不只是车间 | GPUStack 是什么、项目定位与社区生态、能力地图（产线/车间/质检/交付四层覆盖）、Server-Worker 架构、安装三选一（脚本/Docker/pip）、部署第一个模型 | 🚧 |
+| 第 15 章 GPUStack 全景：不只是车间 | GPUStack 是什么、项目定位与社区生态、能力地图（产线/车间/质检/交付四层覆盖）、Server-Worker 架构、安装（Docker & Kubernetes）、部署第一个模型 | 🚧 |
 | 第 16 章 车间层（上）：集群与资源管理 | 多集群管理（本地机房/Kubernetes/云厂商）、Worker 接入与调度、GPU 分配策略、异构与国产化卡适配 | 🚧 |
-| 第 17 章 车间层（下）：模型部署与引擎编排（兼产线接管） | 模型目录与 Day 0 新模型支持、vLLM/SGLang 自动配置、自定义引擎接入、性能模式（低延迟/高吞吐）、内置投机解码（EAGLE3/MTP/N-grams）与 LMCache/HiCache 扩展 KV 缓存 | 🚧 |
+| 第 17 章 车间层（下）：模型部署与引擎编排（兼产线接管） | 模型目录与 Day 0 新模型支持、vLLM/SGLang 自动配置、自定义引擎接入、自动 PD 分离编排、共享 KV Cache 池（LMCache/Mooncake/XSKY MeshFusion）、部署配置 YAML 导入导出与版本回滚 | 🚧 |
 | 第 18 章 质检层：压测、可观测与 SLO | 监控体系（Prometheus/Grafana）、token 计量与请求指标、压测方法与基线复测、故障自愈与负载均衡、守 SLO 的完整闭环 | 🚧 |
 | 第 19 章 交付层与收官：把 token 服务交出去 | AI Gateway 对外服务、认证与访问控制、多租户与成本核算、GPU Instance（SSH/Jupyter）按需交付、结课综合实战：一座完整的 token 工厂 | 🚧 |
 
